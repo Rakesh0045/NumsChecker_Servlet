@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <!-- Welcome File List -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <!-- Servlet Declaration for NumberCheckServlet -->
+    <servlet>
+        <servlet-name>NumberCheckServlet</servlet-name>
+        <servlet-class>CheckNumberServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+
+    <!-- Servlet Mapping -->
+    <servlet-mapping>
+        <servlet-name>NumberCheckServlet</servlet-name>
+        <url-pattern>/checkNumber</url-pattern>
+    </servlet-mapping>
+
+    <!-- JSP Page Mapping -->
+
+</web-app>

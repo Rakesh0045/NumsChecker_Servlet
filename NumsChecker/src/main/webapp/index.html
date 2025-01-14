@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumsChecker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>NumsChecker</h1>
+        <form action="checkNumber" method="POST">
+            <label for="number">Enter a Number:</label>
+            <input type="number" id="number" name="number" placeholder="Enter any number" required>
+            
+            <div class="checkbox-group">
+                <br>
+                <label>Select Checks:</label>
+                <label><input type="checkbox" name="checkType" value="prime"> Prime</label>
+                <label><input type="checkbox" name="checkType" value="perfect"> Perfect</label>
+                <label><input type="checkbox" name="checkType" value="armstrong"> Armstrong</label>
+                <label><input type="checkbox" name="checkType" value="strong"> Strong</label>
+                <label><input type="checkbox" name="checkType" value="spy"> Spy</label>
+                <label><input type="checkbox" name="checkType" value="pallindrome"> Pallindrome</label>
+            </div>
+
+            <input type="submit" value="Check Number">
+        </form>
+        <p class="note">You can select multiple checks to perform on the entered number.</p>
+    </div>
+</body>
+
+</html>

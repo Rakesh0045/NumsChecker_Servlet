@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works - NumsChecker</title>
+    <style>
+        body {
+            background-color: indigo;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: left;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        .explanation {
+            margin-bottom: 30px;
+        }
+
+        .explanation h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .explanation p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .example {
+            font-style: italic;
+            color: #ffeb3b;
+            margin-top: 10px;
+        }
+
+        .go-back {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 25px;
+            margin-left: 280px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .go-back:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>How It Works</h2>
+
+        <div class="explanation">
+            <h3>Prime Number Check</h3>
+            <p>A prime number is a number greater than 1 that has no divisors other than 1 and itself.</p>
+            <p class="example">Example: 5 is a prime number because it is only divisible by 1 and 5.</p>
+        </div>
+
+        <div class="explanation">
+            <h3>Perfect Number Check</h3>
+            <p>A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding the number itself).</p>
+            <p class="example">Example: 6 is a perfect number because 1 + 2 + 3 = 6.</p>
+        </div>
+
+        <div class="explanation">
+            <h3>Armstrong Number Check</h3>
+            <p>An Armstrong number is a number that is equal to the sum of its own digits, each raised to the power of the number of digits.</p>
+            <p class="example">Example: 153 is an Armstrong number because 1³ + 5³ + 3³ = 153.</p>
+        </div>
+
+        <div class="explanation">
+            <h3>Strong Number Check</h3>
+            <p>A strong number is a number whose sum of the factorials of its digits is equal to the number itself.</p>
+            <p class="example">Example: 145 is a strong number because 1! + 4! + 5! = 145.</p>
+        </div>
+
+        <div class="explanation">
+            <h3>Spy Number Check</h3>
+            <p>A spy number is a number where the sum of its digits is equal to the product of its digits.</p>
+            <p class="example">Example: 123 is a spy number because 1 + 2 + 3 = 6 and 1 * 2 * 3 = 6.</p>
+        </div>
+
+        <div class="explanation">
+            <h3>Pallindrome Number Check</h3>
+            <p>A pallindrome number is a number that reads the same forwards and backwards.</p>
+            <p class="example">Example: 121 is a pallindrome number because it reads the same from left to right and right to left.</p>
+        </div>
+
+        <a href="index.html" class="go-back">Go Back</a>
+    </div>
+</body>
+
+</html>
