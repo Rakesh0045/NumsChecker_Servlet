@@ -1,55 +1,48 @@
-```markdown
-# 🌟 NumsChecker
+# NumsChecker
 
-NumsChecker is a sleek and interactive Java-based web application built with **GenericServlet**, JSP, and HTML. 🚀 Enter a number, perform exciting checks like Prime, Armstrong, or Palindrome, and get results instantly with a stylish UI!
+NumsChecker is a simple Java-based web application built using **GenericServlet**, JSP, and basic HTML. It allows users to input a number and perform various checks such as Prime, Perfect, Armstrong, Strong, Spy, and Palindrome. The results are displayed on a clean and responsive UI.
 
-## ✨ Features
-- 🔢 **Input a number** and select from multiple checks:
-  - ✅ Prime
-  - ✅ Perfect
-  - ✅ Armstrong
-  - ✅ Strong
-  - ✅ Spy
-  - ✅ Palindrome
-- 🎨 **Beautiful and responsive UI**.
-- 📚 A dedicated **"How It Works" page** with easy-to-understand examples.
+## Features
+- Input a number and select checks to perform.
+- Supported checks:
+  - Prime
+  - Perfect
+  - Armstrong
+  - Strong
+  - Spy
+  - Palindrome
+- Results are displayed on a styled output page.
+- A "How It Works" page explains the logic behind each check with examples.
 
-## 📂 Project Structure
+## Project Structure
 ```
 NumsChecker/
 │
 ├── WebContent/
-│   ├── index.html             # Main input form
-│   ├── how-it-works.html      # Logic explanations
-│   ├── output.jsp             # Results display
-│   ├── styles.css             # Custom styles
-│   ├── bg.jpg                 # Background image
+│   ├── index.html             
+│   ├── how-it-works.html      
+│   ├── output.jsp             
+│   ├── styles.css                 
+│   ├── bg.jpg                
 │
 ├── WEB-INF/
-│   ├── web.xml                # Servlet configuration
-│   ├── lib/                   # External libraries
-│
+│   ├── web.xml                
+│   ├── lib/                   
 └── src/
-     └── CheckNumberServlet.java # Core servlet logic
+     └── CheckNumberServlet.java 
 ```
 
-## 🛠️ Technologies Used
-- **Java Servlet**: Backend logic processing
-- **JSP**: Dynamic content generation
-- **HTML & CSS**: Modern front-end design
-- **Apache Tomcat**: Deployment server
+## Technologies Used
+- **Java Servlet**: Core logic
+- **JSP**: Dynamic result rendering
+- **HTML & CSS**: Front-end interface
+- **Apache Tomcat**: Server for deployment
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/NumsChecker.git
    ```
-2. Open the project in your favorite IDE (Eclipse, IntelliJ IDEA, etc.).
-3. Deploy it on an **Apache Tomcat server**.
-4. Visit the app at:  
-   `http://localhost:8080/NumsChecker/`
-
-
-
-Unleash the power of numbers with **NumsChecker**! 💻✨
-```
+2. Open the project in your IDE (e.g., Eclipse or IntelliJ IDEA).
+3. Deploy the project on an Apache Tomcat server.
+4. Access the application at `http://localhost:8080/NumsChecker/`.
